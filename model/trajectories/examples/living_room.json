@@ -1,0 +1,216 @@
+[
+  {
+    "prompt": "a living room with a lit furnace, couch and cozy curtains, bright lamps that make the room look well-lit",
+    "fn_name": "forward",
+    "fn_args": {
+      "height": 0.0,
+      "rot": 0.0
+    }
+  },
+
+  {
+    "fn_name": "rot_left_up_down",
+    "fn_args": {
+      "height": 0.0,
+      "rot": 0.0
+    }
+  },
+
+  {
+    "prompt": "floor in a single color",
+    "negative_prompt": "furniture, blurry, text, plants, curtains, cushions",
+    "fn_name": "sphere_rot",
+    "fn_args": {
+      "height": 0.2,
+      "radius": 1.0,
+      "phi": 35.0
+    },
+    "adaptive": [
+      {
+        "arg": "radius",
+        "delta": 0.3
+      }
+    ]
+  },
+  {
+    "prompt": "floor in a single color",
+    "negative_prompt": "furniture, blurry, text, plants, curtains, cushions",
+    "fn_name": "rot_left_up_down",
+    "fn_args": {
+      "height": -0.2,
+      "rot": -15.0
+    }
+  },
+
+  {
+    "prompt": "ceiling in a single color",
+    "negative_prompt": "lamps, paintings, decoration, text, distortions",
+    "fn_name": "rot_left_up_down",
+    "fn_args": {
+      "height": 0.2,
+      "rot": 15.0
+    }
+  },
+  {
+    "prompt": "ceiling in a single color",
+    "negative_prompt": "lamps, paintings, decoration, text, distortions",
+    "fn_name": "sphere_rot",
+    "fn_args": {
+      "height": -0.3,
+      "radius": 1.0,
+      "phi": 25.0
+    },
+    "adaptive": [
+      {
+        "arg": "radius",
+        "delta": 0.3,
+        "max": 2.0
+      }
+    ]
+  },
+
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "forward",
+    "fn_args": {
+      "height": -0.2,
+      "rot": -10.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "forward",
+    "fn_args": {
+      "height": 0.2,
+      "rot": 10.0
+    }
+  },
+
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "backward2",
+    "fn_args": {
+      "height": 0.0,
+      "rot": 0.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "backward2",
+    "fn_args": {
+      "height": -0.2,
+      "rot": -10.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "backward2",
+    "fn_args": {
+      "height": 0.2,
+      "rot": 10.0
+    }
+  },
+
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "backward3",
+    "fn_args": {
+      "height": 0.0,
+      "rot": 0.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "backward3",
+    "fn_args": {
+      "height": -0.2,
+      "rot": -10.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "backward3",
+    "fn_args": {
+      "height": 0.2,
+      "rot": 10.0
+    }
+  },
+
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "back_and_forth_forward_reverse",
+    "fn_args": {
+      "height": 0.0,
+      "rot": 0.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "back_and_forth_forward_reverse",
+    "fn_args": {
+      "height": -0.2,
+      "rot": -10.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "back_and_forth_forward_reverse",
+    "fn_args": {
+      "height": 0.2,
+      "rot": 10.0
+    }
+  },
+
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "back_and_forth_backward_reverse",
+    "fn_args": {
+      "height": 0.0,
+      "rot": 0.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "back_and_forth_backward_reverse",
+    "fn_args": {
+      "height": -0.2,
+      "rot": -10.0
+    }
+  },
+  {
+    "prompt": "single color",
+    "negative_prompt": "lamps, paintings, seats, decoration, text, distortions",
+    "surface_normal_threshold": -1,
+    "fn_name": "back_and_forth_backward_reverse",
+    "fn_args": {
+      "height": 0.2,
+      "rot": 10.0
+    }
+  }
+]
