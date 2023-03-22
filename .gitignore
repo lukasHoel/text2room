@@ -1,0 +1,8 @@
+output/
+checkpoints/
+
+.idea
+.vscode
+__pycache__/
+
+*.pt

@@ -12,7 +12,7 @@ If you find Text2Room useful for your work please cite:
 @preprint{hoellein2023text2room,
   title={Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models},
   author={H{\"o}llein, Lukas and Cao, Ang and Owens, Andrew and Johnson, Justin and Nie{\ss}ner, Matthias},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2303.11989},
   year={2023}
 }
 ```
