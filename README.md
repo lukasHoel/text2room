@@ -1,5 +1,5 @@
 # Text2Room
-Text2Room generates textured 3D meshes from a given text prompt using 2D text-to-image models.
+Text2Room generates textured 3D meshes from a given text prompt using 2D text-to-image models.The goal could be to create a more immersive and interactive experience for people by allowing them to translate their digital conversations into real-life actions
 
 This is the official repository that contains source code for the arXiv paper [Text2Room](https://lukashoel.github.io/text-to-room/).
 
