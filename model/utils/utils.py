@@ -78,7 +78,7 @@ def save_image(image, prefix, idx, outdir):
     file_with_ext = f"{filename}.{ext}"
     file_out = os.path.join(outdir, file_with_ext)
     image.save(file_out)
-    return filename
+    return file_with_ext
 
 
 def save_rgbd(image, depth, prefix, idx, outdir):
@@ -90,7 +90,7 @@ def save_rgbd(image, depth, prefix, idx, outdir):
     dst.paste(image, (0, 0))
     dst.paste(depth, (image.width, 0))
     dst.save(file_out)
-    return filename
+    return file_with_ext
 
 
 def save_settings(args):
