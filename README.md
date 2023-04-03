@@ -3,7 +3,7 @@ Text2Room generates textured 3D meshes from a given text prompt using 2D text-to
 
 This is the official repository that contains source code for the arXiv paper [Text2Room](https://lukashoel.github.io/text-to-room/).
 
-[[arXiv](https://arxiv.org/abs/2303.11989)] [[Project Page](https://lukashoel.github.io/text-to-room/)] [[Video](https://youtu.be/fjRnFL91EZc)]
+[arXiv](https://arxiv.org/abs/2303.11989) | [Project Page](https://lukashoel.github.io/text-to-room/) | [Video](https://youtu.be/fjRnFL91EZc)
 
 ![Teaser](docs/teaser.jpg "Text2Room")
 
